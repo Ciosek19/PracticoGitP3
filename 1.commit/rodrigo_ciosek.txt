@@ -1,7 +1,7 @@
 1. Se inicializa con "git init"
 2. "git remote remove nombre"
-3. Mientras hagas los commits
-4. git add . -  git commit -m "mensaje"
+3. Si
+4. git add
 5. git status
 6. commit -m "mensaje"
 7. Commit es la confirmacion de los archivos agregados al stage, que estan esperando el push.
