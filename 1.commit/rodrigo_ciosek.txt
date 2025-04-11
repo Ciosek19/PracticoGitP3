@@ -5,3 +5,91 @@
 5. git status
 6. commit -m "mensaje"
 7. Commit es la confirmacion de los archivos agregados al stage, que estan esperando el push.
+
+commit fab00f48767ee28f460a89df88854252508b7afa (HEAD -> main)
+Author: Ciosek19 <modrips4@gmail.com>
+Date:   Thu Apr 10 20:16:35 2025 -0300
+
+    Modificando rodrigoCiosek y miSandwich
+
+commit e68150dc6268b18c6fb665632903dea3e9a4c287
+Author: Ciosek19 <modrips4@gmail.com>
+Date:   Thu Apr 10 20:14:32 2025 -0300
+
+    Agregando rodrigo ciosek
+
+commit f5405fc927d89b96197c465f053ec1548f4b55a3 (origin/main, origin/HEAD)
+Author: Sebastian Iglesias <sebiglesias@users.noreply.github.com>
+Date:   Thu Jun 8 16:56:17 2023 -0300
+
+    Revert "Santiago Bang (#63)" (#64)
+
+    This reverts commit eb7eb5dd8e5af4efd1ada7774351f53a3a5e86f2.
+
+commit eb7eb5dd8e5af4efd1ada7774351f53a3a5e86f2
+Author: Sannnn-Sannnn <130693505+Sannnn-Sannnn@users.noreply.github.com>
+Date:   Thu Jun 8 16:55:59 2023 -0300
+
+9. Del mas reciente al mas viejo
+
+10'1. Veo un hash con el nombre del commit solamente
+fab00f4 (HEAD -> main) Modificando rodrigoCiosek y miSandwich
+e68150d Agregando rodrigo ciosek
+f5405fc (origin/main, origin/HEAD) Revert "Santiago Bang (#63)" (#64)
+eb7eb5d Santiago Bang (#63)
+579a34f Agrego instrucciones para instalar claves ssh en windows con git bash.
+786904f Initial commit - repo setup
+140733d Initial commit
+
+10'2. Veo el autor, fecha, mensaje commit, cambios que se realizaron.
+commit fab00f48767ee28f460a89df88854252508b7afa (HEAD -> main)
+Author: Ciosek19 <modrips4@gmail.com>
+Date:   Thu Apr 10 20:16:35 2025 -0300
+
+    Modificando rodrigoCiosek y miSandwich
+
+ 1.commit/rodrigo_ciosek.txt | 4 ++--
+ 1.commit/sandwich.txt       | 1 +
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit e68150dc6268b18c6fb665632903dea3e9a4c287
+Author: Ciosek19 <modrips4@gmail.com>
+Date:   Thu Apr 10 20:14:32 2025 -0300
+
+    Agregando rodrigo ciosek
+
+ 1.commit/rodrigo_ciosek.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit f5405fc927d89b96197c465f053ec1548f4b55a3 (origin/main, origin/HEAD)
+Author: Sebastian Iglesias <sebiglesias@users.noreply.github.com>
+Date:   Thu Jun 8 16:56:17 2023 -0300
+
+11.
+diff --git a/1.commit/rodrigo_ciosek.txt b/1.commit/rodrigo_ciosek.txt
+index 9799c27..471484c 100644
+--- a/1.commit/rodrigo_ciosek.txt
++++ b/1.commit/rodrigo_ciosek.txt
+@@ -1,7 +1,7 @@
+ 1. Se inicializa con "git init"
+ 2. "git remote remove nombre"
+-3. Si
+-4. git add
++3. Mientras hagas los commits
++4. git add . -  git commit -m "mensaje"
+ 5. git status
+ 6. commit -m "mensaje"
+ 7. Commit es la confirmacion de los archivos agregados al stage, que estan esperando el push.
+diff --git a/1.commit/sandwich.txt b/1.commit/sandwich.txt
+index fbf95b1..7dd1b48 100644
+--- a/1.commit/sandwich.txt
++++ b/1.commit/sandwich.txt
+@@ -1,5 +1,4 @@
+ pan
+ queso
+ medallón
+-mayonesa
+ pan
+\ No newline at end of file
+
+11'1. 
